@@ -1,8 +1,8 @@
 /*
  * @Author: lifangdi_i
  * @Date: 2019-12-13 11:40:40
- * @LastEditors: lifangdi_i
- * @LastEditTime: 2019-12-13 18:16:06
+ * @LastEditors  : lifangdi
+ * @LastEditTime : 2020-01-19 13:07:45
  */
 package main
 
@@ -44,12 +44,14 @@ func forever() {
 		fmt.Println("abc")
 	}
 }
+
 func main() {
 	fmt.Println(
 		convertToBin(5),  // 101
 		convertToBin(13), // 1101
 		convertToBin(342424),
 		convertToBin(0),
-		printFile("abc.txt"),
 	)
+	
+	printFile("abc.txt")
 }
